@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+html {
+  font-size: 62.5%;
+  background-color: black;
+}
+
+.hero_section {
+  box-sizing: border-box;
+
+  width: 100vw;
+  height: 75rem;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("Images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.logo img {
+  /* padding-left: 5rem; */
+  width: 14rem;
+  height: 3.6rem;
+}
+.english_signin {
+}
+.English {
+  padding: 0.8rem 2.2rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.2rem;
+}
+.signin {
+  padding: 0.7rem 1.7rem;
+  margin-left: 1.8rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid rgb(244, 6, 18);
+  border-radius: 0.4rem;
+  background-color: rgb(244, 6, 18);
+  color: white;
+}
+.content {
+  box-sizing: border-box;
+  color: white;
+  margin: auto;
+  padding: 7.5rem;
+  text-align: center;
+}
+.content h1 {
+  font-size: 5rem;
+  margin: 1rem;
+}
+.first {
+  font-size: 2.6rem;
+  margin: 2rem;
+}
+.second {
+  font-size: 1.8rem;
+  margin: 2.5rem;
+}
+.email_button {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 3rem; */
+}
+.email_button input {
+  box-sizing: border-box;
+  /* padding: 2rem; */
+}
+.email_button input:focus {
+  outline: none;
+}
+.email_button input::placeholder {
+  font-size: 18px;
+}
+.email {
+  width: 45rem;
+  height: 6rem;
+  padding: 0rem 1rem;
+  border: 1px solid white;
+  border-radius: 3px 0px 0px 3px;
+  background-color: white;
+}
+
+.get_started {
+  width: 21.2rem;
+  height: 6rem;
+  border: 1px solid rgb(244, 6, 18);
+  color: white;
+  background-color: rgb(244, 6, 18);
+
+  font-size: 18px;
+  margin-left: -4px;
+  border-radius: 0px 3px 3px 0px;
+}
+.questions {
+  color: white;
+  background-color: black;
+  padding: 7rem 4.5rem;
+  text-align: center;
+}
+.question_list {
+  width: 70%;
+  margin: 5rem auto;
+}
+.questions h1 {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.questions ul {
+  list-style: none;
+  margin: 1rem;
+}
+.questions li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  font-size: 2.4rem;
+  border: 1px solid rgb(48, 48, 48);
+  background-color: rgb(48, 48, 48);
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+}
+.questions li div,
+ion-icon {
+  background-color: rgb(48, 48, 48);
+}
+.questions ion-icon {
+  font-size: 4rem;
+  color: white;
+}
+.subtext {
+  font-size: 1.9rem;
+  margin: 2rem;
+}
+
+.card {
+  box-sizing: border-box;
+  padding: 4rem 2rem;
+  margin: auto;
+  width: 85%;
+}
+.card h1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+.card p {
+  font-size: 2.6rem;
+  color: white;
+}
+.card img {
+  width: 47%;
+}
+.download_and_watch img {
+  padding-bottom: 3rem;
+}
+.card div {
+  box-sizing: border-box;
+  width: 60%;
+  text-align: left;
+}
+.watch_On_TV {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.download_and_watch {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.watch_on_device {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.kids_watch {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+hr {
+  border: 4px solid rgb(48, 48, 48);
+}
+footer {
+  width: 80%;
+  margin: 6rem auto;
+}
+.contact_details {
+  font-size: 1.6rem;
+  color: rgb(113, 112, 112);
+  margin: 2rem 0rem;
+}
+
+.footer_content {
+  width: 100%;
+  /* margin: 3rem 3rem 3rem 0rem; */
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.sub_content {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0.6rem;
+  /* font-size: 3.4 rem; */
+}
+.footer_content a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(113, 112, 112);
+}
+.footer_content p {
+  color: red;
+}
+.footer_content a:hover {
+  text-decoration: underline rgb(113, 112, 112) solid 1px;
+}
+.netflix_india {
+  font-size: 1.3rem;
+  color: rgb(113, 112, 112);
+  margin: 2.5rem 0rem;
+  text-align: left;
+}
+
+.footer_English {
+  padding: 0.8rem 0rem;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(113, 112, 112);
+  border-radius: 0.2rem;
+  color: rgb(113, 112, 112);
+}
+.English:focus {
+  outline: none;
+}
+.footer_English {
+  margin: 2.5rem 0rem;
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 50%;
+  }
+  .second {
+    font-size: 2.3rem;
+  }
+  .email_button {
+    flex-direction: column;
+    align-items: center;
+  }
+  .email_button input {
+    border-radius: 3px;
+  }
+  .get_started {
+    width: 18rem;
+    height: 4rem;
+    margin-top: 2rem;
+  }
+  .card img {
+    height: 70%;
+    width: 80%;
+  }
+  .card div {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  .watch_On_TV {
+    flex-direction: column;
+    align-items: center;
+  }
+  .watch_On_TV img {
+    margin: 3rem;
+  }
+  .download_and_watch {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .watch_on_device {
+    flex-direction: column;
+    align-items: center;
+  }
+  .watch_on_device img {
+    margin: 3rem;
+  }
+  .kids_watch {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .subtext {
+    margin: 3rem;
+    padding: 0rem 5rem;
+    font-size: 2.3rem;
+  }
+  .question_list {
+    width: 100%;
+  }
+  .footer_content {
+    flex-wrap: wrap;
+  }
+  .sub_content {
+    width: 33.3%;
+  }
+}
